@@ -68,8 +68,8 @@
                         <td id="col5"> 
                             <select class="form-control" name="currency[]" id="currency" required> 
                                 <option selected disabled>-- Select --</option> 
-                                <option value="indian">INR</option>
-                                <option value="dollar">USD</option>
+                                <option value="INR">INR</option>
+                                <option value="USD">USD</option>
                             </select> 
 
                         <td id="col6"><input type="text" class="form-control" name="empid[]" placeholder="Enter your employee id" required></td> 
