@@ -45,7 +45,7 @@
                         <th>Amount</th>
                         <th>Currency</th>
                         <th>Employee ID</th>
-                        <th>Date</th> 
+                        <th>Date of expense</th> 
                     </tr>
                 </thead>
                 
