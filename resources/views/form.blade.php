@@ -73,7 +73,7 @@
                             </select> 
 
                         <td id="col6"><input type="text" class="form-control" name="empid[]" placeholder="Enter your employee id" required></td> 
-                        <td id="col7"><input type="date" class="form-control" name="date[]" placeholder="Date of expense" required></td> 
+                        <td id="col7"><input type="date" class="form-control" name="periodofexp[]" placeholder="Date of expense" required></td> 
 
 
                     </tr>
@@ -122,7 +122,7 @@
                     <td>{{ $items->amount }}</td>
                     <td>{{ $items->currency }}</td>
                     <td>{{ $items->empid }}</td>
-                    <td>{{ $items->empid }}</td>
+                    <td>{{ $items->periodofexp }}</td>
                   </tr>
                 
                 @endforeach
