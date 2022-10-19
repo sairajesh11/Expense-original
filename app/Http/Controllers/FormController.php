@@ -32,7 +32,7 @@ class FormController extends Controller
             $data = DB::table('form_basics')->where('email',$email)->latest()->paginate(10);
         // print_r($data);
         // return view('form',['form_basics'=>$data]);
-            return view('form','dashboard',compact('data'));
+            return view('dashboard',compact('data'));
 
         // $user_email = auth()->user();
         // $data = formBasic::where('email',$user_email)->first();
