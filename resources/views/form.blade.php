@@ -238,6 +238,8 @@
                     required: true,
                 'empid[]': {
                     required: true,
+                'periodofexp[]': 
+                    required: true,
                               
                 
                 },
