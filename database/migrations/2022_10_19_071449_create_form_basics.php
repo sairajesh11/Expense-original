@@ -15,6 +15,14 @@ return new class extends Migration
     {
         Schema::create('form_basics', function (Blueprint $table) {
             $table->id();
+            $table->string('email')->nullable();
+            $table->string('empname')->nullable();
+            $table->string('phone')->nullable();
+            $table->string('expense')->nullable();
+            $table->string('amount')->nullable();
+            $table->string('currency')->nullable();
+            $table->string('empid')->nullable();
+            $table->string('date')->nullable();
             $table->timestamps();
         });
     }
