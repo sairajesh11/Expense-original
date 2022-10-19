@@ -17,7 +17,11 @@ return new class extends Migration
             $table->id();
             $table->string('empname')->nullable();
             $table->string('phone')->nullable();
-            $table->string('department')->nullable();
+            $table->string('expense')->nullable();
+            $table->string('amount')->nullable();
+            $table->string('currency')->nullable();
+            $table->string('empid')->nullable();
+            $table->string('date')->nullable();
             $table->timestamps();
         });
     }
