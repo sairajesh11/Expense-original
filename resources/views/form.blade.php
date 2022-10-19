@@ -38,10 +38,15 @@
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li> -->
       <li class="nav-item">
-        <a class="nav-link" href="/form">Request form</a>
+        <a class="navbar-brand" href="/form">Request form</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/contact">Receipt form</a>
+        <a class="navbar-brand" href="/contact">Receipt form</a>
+      </li>
+      <li class="nav-item">
+        <!-- <a class="nav-link " href="/expenses" >Expenses</a> -->
+        <a style="position : absolute;  right:0;" class="navbar-brand" href="{{ route('signout') }}">Logout</a>
+
       </li>
       <!-- <li class="nav-item">
         <a class="nav-link " href="/expenses" >Expenses</a>
@@ -160,7 +165,7 @@
         <!-- <a style="position : absolute; top: 8px; left: 8px;" class="btn btn-sm btn-info" href="http://localhost:8000/dashboard">Back</a> -->
 
 
-    <nav class="navbar navbar-light navbar-expand-lg mb-5">
+    <!-- <nav class="navbar navbar-light navbar-expand-lg mb-5">
         <div class="container">
         
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -190,7 +195,7 @@
 
 
 
-    </div>
+    </div> -->
 
 
     <script>
