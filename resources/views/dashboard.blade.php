@@ -75,7 +75,7 @@
     <body>
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
-  <a class="navbar-brand" href="/dashboard">Home</a>
+  <a style="font-family: 'Arial'; font-size: 18px" class="navbar-brand" href="/dashboard">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -88,7 +88,7 @@
         <a style="font-family: 'Arial'; font-size: 18px" class="navbar-brand" href="/form">Request form</a>
       </li>
       <li class="nav-item">
-        <a class="navbar-brand" href="/contact">Receipt form</a>
+        <a style="font-family: 'Arial'; font-size: 18px" class="navbar-brand" href="/contact">Receipt form</a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link " href="/expenses" >Expenses</a> -->
