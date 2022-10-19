@@ -85,14 +85,14 @@
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li> -->
       <li class="nav-item">
-        <a style="font-family: 'Arial'; font-size: 18px" class="navbar-brand" href="/form">Request form</a>
+        <a style="font-family: 'Arial'; font-size: 16px" class="navbar-brand" href="/form">Request form</a>
       </li>
       <li class="nav-item">
-        <a style="font-family: 'Arial'; font-size: 18px" class="navbar-brand" href="/contact">Receipt form</a>
+        <a style="font-family: 'Arial'; font-size: 16px" class="navbar-brand" href="/contact">Receipt form</a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link " href="/expenses" >Expenses</a> -->
-        <a style="font-family: 'Arial'; font-size: 18px; position : absolute;  right:0;" class="navbar-brand" href="{{ route('signout') }}">Logout</a>
+        <a style="font-family: 'Arial'; font-size: 20px; position : absolute;  right:0;" class="navbar-brand" href="{{ route('signout') }}">Logout</a>
 
       </li>
     </ul>
