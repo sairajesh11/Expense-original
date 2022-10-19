@@ -110,7 +110,7 @@
                 <div class="top-right links">
                     @auth
                         <!-- <a href="{{ url('/home') }}">Home</a> -->
-                        <a style="position : absolute; top:0; right:0;" class="navbar-brand btn btn-sm btn-danger" href="{{ route('signout') }}">Logout</a>
+                        <a style="position : absolute; top:0; right:0;" class="btn btn-dark" href="{{ route('signout') }}">Logout</a>
 
                     @else
                         <a href="{{ route('login') }}">Login</a>
