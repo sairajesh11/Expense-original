@@ -113,7 +113,7 @@
             <tbody>
                 @foreach ($data as $key=>$items )
                 <tr>
-                    <td>{{ $data->firstItem() + $key }}</td>
+                    <td>{{ $data->lastItem() + $key }}</td>
                     <!-- <th scope="row">{{ ++$key }}</th> -->
                     <td>{{ $items->email }}</td>
                     <td>{{ $items->empname }}</td>
