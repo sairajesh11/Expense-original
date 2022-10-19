@@ -98,46 +98,53 @@
     </ul>
   </div>
 </nav>
-        
-    
-    <!-- <br>
-        <h3><center>Expense history</center></h3>
-        <table class="table table-sm table-dark">
-            <thead>
-              <tr>
-                <th scope="col">No</th>
-                <th scope="col">Email</th>
-                <th scope="col">Name</th>
-                <th scope="col">Phone</th>
-                <th scope="col">Expense</th>
-                <th scope="col">Amount</th>
-                <th scope="col">Currency</th>
-                <th scope="col">Employee ID</th>
-                <th scope="col">Date of expense</th>
-              </tr>
-            </thead>
-            <tbody>
-                @foreach ($data as $key=>$items )
+        <!-- <form>
+            <table>
+                <br>
                 <tr>
-                    <td>{{ $data->firstItem() + $key }}</td>
-                    <th scope="row">{{ ++$key }}</th>
-                    <td>{{ $items->email }}</td>
-                    <td>{{ $items->empname }}</td>
-                    <td>{{ $items->phone }}</td>
-                    <td>{{ $items->expense }}</td>
-                    <td>{{ $items->amount }}</td>
-                    <td>{{ $items->currency }}</td>
-                    <td>{{ $items->empid }}</td>
-                    <td>{{ $items->date }}</td>
-                  </tr>
+                    <td><button type="button" style="position : absolute; top: 70px; right:20px;" class="btn btn-sm btn-danger" href="{{ route('signout') }}">Logout</button></td>
+                </tr>  
+            </table>
+        </form> -->
+        <div class="flex-center position-ref full-height">
+            @if (Route::has('login'))
+
+        <!-- <div class="flex-center position-ref full-height">
+            @if (Route::has('login'))
+                <div class="top-right links">
+                    @auth -->
+                        <!-- <a href="{{ url('/home') }}">Home</a> -->
+                        <!-- <a style="position : absolute; top:0; right:0;" class="btn btn-dark" href="{{ route('signout') }}">Logout</a> -->
+
+                    <!-- @else
+                        <a href="{{ route('login') }}">Login</a>
+
+                        @if (Route::has('register'))
+                            <a href="{{ route('register') }}">Register</a>
+                        @endif
+                    @endauth
+                </div>
+            @endif -->
+            @endif -->
+
+    <div class="content">
+        <div class="title m-b-md">
+            Twenty20 systems
+            
+        </div>
                 
-                @endforeach
-            </tbody>
-          </table>
-          {{$data->links()}} -->
-        
-                
-        
+                <!-- <div class="links">
+                    <a href="https://laravel.com/docs">Docs</a>
+                    <a href="https://laracasts.com">Laracasts</a>
+                    <a href="https://laravel-news.com">News</a>
+                    <a href="https://blog.laravel.com">Blog</a>
+                    <a href="https://nova.laravel.com">Nova</a>
+                    <a href="https://forge.laravel.com">Forge</a>
+                    <a href="https://vapor.laravel.com">Vapor</a>
+                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                </div> -->
+
+            <!-- </div> -->
         </div>
     </body>
 </html>
