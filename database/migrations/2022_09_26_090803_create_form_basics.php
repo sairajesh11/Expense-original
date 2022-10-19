@@ -21,6 +21,8 @@ return new class extends Migration
             $table->string('expense')->nullable();
             $table->string('amount')->nullable();
             $table->string('currency')->nullable();
+            $table->string('empid')->nullable();
+            $table->string('date')->nullable();
             $table->timestamps();
         });
     }
