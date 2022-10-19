@@ -99,7 +99,7 @@
   </div>
 </nav>
         
-    <form>
+    
     <br>
         <h3><center>Expense history</center></h3>
         <table class="table table-sm table-dark">
@@ -135,7 +135,7 @@
             </tbody>
           </table>
           {{$data->links()}}
-        </form>
+        
                 
         
         </div>
