@@ -238,6 +238,8 @@
                     required: true,
                 'empid[]': {
                     required: true,
+                'date[]': {
+                    required: true,
                               
                 
                 },
@@ -250,6 +252,7 @@
                 'amount[]' : "Please input file*",
                 'currency[]' : "Please input file*",
                 'empid[]' : "Please input file*",
+                'date[]' : "Please input file*",
                 
             },
         });
