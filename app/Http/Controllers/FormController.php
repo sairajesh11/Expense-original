@@ -73,8 +73,8 @@ class FormController extends Controller
                     'expense'=>$request->expense[$key],
                     'amount'=>$request->amount[$key],
                     'currency'=>$request->currency[$key],
-                    'empid'=>$request->empid[$key],
-                    'periodofexp'=>$request->periodofexp[$key]
+                    'empid'=>$request->empid[$key]
+                    // 'date'=>$request->date[$key]
                 ];
                 DB::table('form_basics')->insert($saveRecord);
             }
