@@ -92,7 +92,7 @@
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link " href="/expenses" >Expenses</a> -->
-        <a style="right:0;" class="navbar-brand" href="{{ route('signout') }}">Logout</a>
+        <a style="font-family: 'Arial'; font-size: 18px; position : absolute;  right:0;" class="navbar-brand" href="{{ route('signout') }}">Logout</a>
 
       </li>
     </ul>
