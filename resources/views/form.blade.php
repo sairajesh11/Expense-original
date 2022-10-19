@@ -122,7 +122,7 @@
                     <td>{{ $items->amount }}</td>
                     <td>{{ $items->currency }}</td>
                     <td>{{ $items->empid }}</td>
-                    <td>{{ $items->periodofexp }}</td>
+                    <!-- <td>{{ $items->periodofexp }}</td> -->
                   </tr>
                 
                 @endforeach
@@ -238,8 +238,7 @@
                     required: true,
                 'empid[]': {
                     required: true,
-                'periodofexp[]': 
-                    required: true,
+                
                               
                 
                 },
