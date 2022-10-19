@@ -15,7 +15,7 @@ class formBasic extends Model
         'expense',
         'amount',
         'currency',
-        'empid'
-        // 'periodofexp'
+        'empid',
+        'date'
     ];
 }
