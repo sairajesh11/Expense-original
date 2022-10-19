@@ -68,12 +68,12 @@
                         <td id="col5"> 
                             <select class="form-control" name="currency[]" id="currency" required> 
                                 <option selected disabled>-- Select --</option> 
-                                <option value="INR(₹)">INR(₹)</option>
-                                <option value="USD($)">USD($)</option>
+                                <option value="INR">INR</option>
+                                <option value="USD">USD</option>
                             </select> 
 
                         <td id="col6"><input type="text" class="form-control" name="empid[]" placeholder="Enter your employee id" required></td> 
-                        <td id="col7"><input type="date" class="form-control" name="periodofexp[]" placeholder="Date of expense" required></td> 
+                        <td id="col7"><input type="date" class="form-control" name="date[]" placeholder="Date of expense" required></td> 
 
 
                     </tr>
@@ -122,7 +122,6 @@
                     <td>{{ $items->amount }}</td>
                     <td>{{ $items->currency }}</td>
                     <td>{{ $items->empid }}</td>
-                    <!-- <td>{{ $items->periodofexp }}</td> -->
                   </tr>
                 
                 @endforeach
@@ -181,9 +180,9 @@
                 cell = row.insertCell(i);
                 var copycel = document.getElementById('col'+i).innerHTML;
                 cell.innerHTML=copycel;
-                if(i == 8)
+                if(i == 6)
                 { 
-                    var radioinput = document.getElementById('col8').getElementsByTagName('input'); 
+                    var radioinput = document.getElementById('col6').getElementsByTagName('input'); 
                     for(var j = 0; j <= radioinput.length; j++)
                     { 
                         if(radioinput[j].type == 'radio')
@@ -238,7 +237,6 @@
                     required: true,
                 'empid[]': {
                     required: true,
-                
                               
                 
                 },
