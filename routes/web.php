@@ -41,8 +41,3 @@ Route::get('/form',function(){
 Route::get('/expenses',function(){
     return view('expenses');
 });
-
-//for publications
-Route::get('publications','PublicationController@index');
-Route::post('pub','PublicationController@store');
-Route::get('publications','PublicationController@show');
