@@ -106,6 +106,8 @@
                 </tr>  
             </table>
         </form> -->
+        <div class="flex-center position-ref full-height">
+            @if (Route::has('login'))
 
         <!-- <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
@@ -123,10 +125,10 @@
                     @endauth
                 </div>
             @endif -->
+            @endif -->
 
-    <br>
     <div class="content">
-        <div style="position : absolute;  center:0;"class="title m-b-md">
+        <div class="title m-b-md">
             Twenty20 systems
             
         </div>
