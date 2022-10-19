@@ -122,6 +122,7 @@
                     <td>{{ $items->amount }}</td>
                     <td>{{ $items->currency }}</td>
                     <td>{{ $items->empid }}</td>
+                    <td>{{ $items->empid }}</td>
                   </tr>
                 
                 @endforeach
