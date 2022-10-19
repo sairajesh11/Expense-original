@@ -90,9 +90,11 @@
       <li class="nav-item">
         <a class="navbar-brand" href="/contact">Receipt form</a>
       </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link " href="/expenses" >Expenses</a>
-      </li> -->
+      <li class="nav-item">
+        <!-- <a class="nav-link " href="/expenses" >Expenses</a> -->
+        <a style="position : absolute; top:0; right:0;" class="btn btn-dark" href="{{ route('signout') }}">Logout</a>
+
+      </li>
     </ul>
   </div>
 </nav>
