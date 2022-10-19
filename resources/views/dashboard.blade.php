@@ -88,7 +88,7 @@
         <a class="navbar-brand" href="/form">Request form</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/contact">Receipt form</a>
+        <a class="navbar-brand" href="/contact">Receipt form</a>
       </li>
       <!-- <li class="nav-item">
         <a class="nav-link " href="/expenses" >Expenses</a>
