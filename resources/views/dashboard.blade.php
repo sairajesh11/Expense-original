@@ -107,14 +107,14 @@
             </table>
         </form> -->
 
-        <div class="flex-center position-ref full-height">
+        <!-- <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
-                    @auth
+                    @auth -->
                         <!-- <a href="{{ url('/home') }}">Home</a> -->
                         <!-- <a style="position : absolute; top:0; right:0;" class="btn btn-dark" href="{{ route('signout') }}">Logout</a> -->
 
-                    @else
+                    <!-- @else
                         <a href="{{ route('login') }}">Login</a>
 
                         @if (Route::has('register'))
@@ -122,13 +122,13 @@
                         @endif
                     @endauth
                 </div>
-            @endif
+            @endif -->
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Twenty20 systems
-                    
-                </div>
+    <div class="content">
+        <div class="title m-b-md">
+            Twenty20 systems
+            
+        </div>
                 
                 <!-- <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
