@@ -26,8 +26,8 @@
 
     </style>
 
-    <?php include 'dashboard.blade.php' ?>
-    
+    <?php include 'http://localhost:8000/dashboard' ?>
+
     <div class="container">
         <br><br>
         <h1><center>Expense request form</center></h1>
