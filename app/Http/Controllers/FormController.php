@@ -29,7 +29,7 @@ class FormController extends Controller
     public function index()
     {
             $email = Auth::user()->email;
-            $data = DB::table('form_basics')->where('email',$email)->last()->paginate(10);
+            $data = DB::table('form_basics')->where('email',$email)->paginate(10)->last();
         // print_r($data);
         // return view('form',['form_basics'=>$data]);
             return view('form',compact('data'));
