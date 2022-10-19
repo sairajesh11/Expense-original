@@ -25,6 +25,9 @@
         }
 
     </style>
+
+    <?php include 'dashboard.blade.php' ?>
+    
     <div class="container">
         <br><br>
         <h1><center>Expense request form</center></h1>
