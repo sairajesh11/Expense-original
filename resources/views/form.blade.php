@@ -45,7 +45,11 @@
                         <th>Amount</th>
                         <th>Currency</th>
                         <th>Employee ID</th>
+<<<<<<< HEAD
                         <th>Employee ID</th> 
+=======
+                        <th>Date of expense</th> 
+>>>>>>> b5556eb048b85f6820521cd272a8b139f644c138
                     </tr>
                 </thead>
                 
@@ -68,11 +72,13 @@
                         <td id="col5"> 
                             <select class="form-control" name="currency[]" id="currency" required> 
                                 <option selected disabled>-- Select --</option> 
-                                <option value="indian">INR</option>
-                                <option value="dollar">USD</option>
+                                <option value="INR">INR</option>
+                                <option value="USD">USD</option>
                             </select> 
 
                         <td id="col6"><input type="text" class="form-control" name="empid[]" placeholder="Enter your employee id" required></td> 
+                        <td id="col7"><input type="date" class="form-control" name="date[]" placeholder="Date of expense" required></td> 
+
 
                     </tr>
                 </tbody>  
