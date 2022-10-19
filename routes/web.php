@@ -38,6 +38,6 @@ Route::get('/auth/google/callback', [socialauthcontroller::class, 'googlecallaba
 Route::get('/form',function(){
     return redirect('form/new');
 });
-Route::get('/expenses',function(){
-    return view('expenses');
+Route::get('/dashboard',function(){
+    return view('dashboard');
 });
