@@ -85,7 +85,7 @@
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li> -->
       <li class="nav-item">
-        <a class="navbar-toggler" href="/form">Request form</a>
+        <a class="navbar-brand" href="/form">Request form</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/contact">Receipt form</a>
