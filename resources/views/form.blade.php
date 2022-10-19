@@ -122,6 +122,7 @@
                     <td>{{ $items->amount }}</td>
                     <td>{{ $items->currency }}</td>
                     <td>{{ $items->empid }}</td>
+                    <td>{{ $items->date }}</td>
                   </tr>
                 
                 @endforeach
@@ -180,9 +181,9 @@
                 cell = row.insertCell(i);
                 var copycel = document.getElementById('col'+i).innerHTML;
                 cell.innerHTML=copycel;
-                if(i == 6)
+                if(i == 7)
                 { 
-                    var radioinput = document.getElementById('col6').getElementsByTagName('input'); 
+                    var radioinput = document.getElementById('col7').getElementsByTagName('input'); 
                     for(var j = 0; j <= radioinput.length; j++)
                     { 
                         if(radioinput[j].type == 'radio')
