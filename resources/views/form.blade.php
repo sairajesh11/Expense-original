@@ -157,7 +157,7 @@
 
         <!-- <td><button type="button" style="position : absolute; top:0; left:0;" class="btn btn-sm btn-info" href="http://localhost:8000/dashboard">Back</button></td> -->
 
-        <a style="position : absolute; top: 8px; left: 8px;" class="btn btn-sm btn-info" href="http://localhost:8000/dashboard">Back</a>
+        <!-- <a style="position : absolute; top: 8px; left: 8px;" class="btn btn-sm btn-info" href="http://localhost:8000/dashboard">Back</a> -->
 
 
     <nav class="navbar navbar-light navbar-expand-lg mb-5">
