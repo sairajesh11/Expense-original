@@ -126,7 +126,7 @@
 
     <br>
     <div class="content">
-        <div class="title m-b-md">
+        <div style="position : absolute;  center:0;"class="title m-b-md">
             Twenty20 systems
             
         </div>
