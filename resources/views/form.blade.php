@@ -88,8 +88,8 @@
                                 <option value="Gym">Gym</option>
                                 <option value="Accomodation">Accomodation</option>
                                 <option value="Internet">Internet</option>
-                                <option value="Internet">Food</option>
-                                <option value="Internet">Cleint expense</option>
+                                <option value="Food">Food</option>
+                                <option value="Client expense">Cleint expense</option>
                             </select> 
                         </td>
                         <td id="col4"><input type="text" class="form-control" name="amount[]" placeholder="Enter your amount" required></td>
@@ -124,42 +124,7 @@
         
 
 
-        <!-- <td><button type="button" style="position : absolute; top:0; left:0;" class="btn btn-sm btn-info" href="http://localhost:8000/dashboard">Back</button></td> -->
-
-        <!-- <a style="position : absolute; top: 8px; left: 8px;" class="btn btn-sm btn-info" href="http://localhost:8000/dashboard">Back</a> -->
-
-
-    <!-- <nav class="navbar navbar-light navbar-expand-lg mb-5">
-        <div class="container">
-        
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    @guest
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('login') }}">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('register-user') }}">Register</a>
-                    </li>
-                    @else
-                    <li class="nav-item">
-                        <a class="btn btn-sm btn-danger" href="{{ route('signout') }}" style="position: absolute; right: 0;">Logout</a>
-                    </li>
-                    @endguest
-                </ul>
-            </div>
-        </div>
-    </nav>
-    @yield('content') 
-
-
-
-
-     </div> --> 
+    
      </div>
 
     <script>
