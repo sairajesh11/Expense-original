@@ -18,7 +18,7 @@ use Laravel\Socialite\Facades\Socialite;
 |
 */
 
-Route::get('/', function () {
+Route::get('/dashboard', function () {
     return redirect('dashboard');
 });
 
