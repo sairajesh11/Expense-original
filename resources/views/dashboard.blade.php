@@ -99,7 +99,7 @@
   </div>
 </nav>
 
-        <!-- <div class="flex-center position-ref full-height">
+        <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
 
             @endif
@@ -108,7 +108,7 @@
         <div class="title m-b-md">
             Twenty20 systems
             
-        </div> -->
+        </div>
         
 
 
