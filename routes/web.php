@@ -26,7 +26,7 @@ Route::get('/', function () {
 Route::get('form/new', [App\Http\Controllers\FormController::class, 'show']);
 Route::post('form/save', [App\Http\Controllers\FormController::class, 'saveRecord'])->name('form/save');
 Route::get('dashboard/new', [App\Http\Controllers\DashController::class, 'index'])->name('dashboard/new');
-Route::get('dashboard/new', [CustomAuthController::class, 'dashboard/new']); 
+Route::get('dashboard', [CustomAuthController::class, 'dashboard']); 
 Route::get('login', [CustomAuthController::class, 'index'])->name('login');
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom'); 
 Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
