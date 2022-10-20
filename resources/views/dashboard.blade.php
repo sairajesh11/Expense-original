@@ -110,46 +110,45 @@
             
         </div> -->
         
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
 
-            @endif
-<br>
-<h3><center>Expense history</center></h3>
-<table class="table table-sm table-dark">
-    <thead>
-      <tr>
-        <th scope="col">No</th>
-        <th scope="col">Email</th>
-        <th scope="col">Name</th>
-        <th scope="col">Phone</th>
-        <th scope="col">Expense</th>
-        <th scope="col">Amount</th>
-        <th scope="col">Currency</th>
-        <th scope="col">Employee ID</th>
-        <th scope="col">Date of expense</th>
-      </tr>
-    </thead>
-    <tbody>
-        @foreach ($data as $key=>$items )
-        <tr>
-            <td>{{ $data->firstItem() + $key }}</td>
-            <!-- <th scope="row">{{ ++$key }}</th> -->
-            <td>{{ $items->email }}</td>
-            <td>{{ $items->empname }}</td>
-            <td>{{ $items->phone }}</td>
-            <td>{{ $items->expense }}</td>
-            <td>{{ $items->amount }}</td>
-            <td>{{ $items->currency }}</td>
-            <td>{{ $items->empid }}</td>
-            <td>{{ $items->date }}</td>
-          </tr>
+
         
-        @endforeach
-    </tbody>
-  </table>
-  
-  {{$data->links()}
+        <br>
+        <h3><center>Expense history</center></h3>
+        <table class="table table-sm table-dark">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Email</th>
+                <th scope="col">Name</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Expense</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Currency</th>
+                <th scope="col">Employee ID</th>
+                <th scope="col">Date of expense</th>
+              </tr>
+            </thead>
+            <tbody>
+                @foreach ($data as $key=>$items )
+                <tr>
+                    <td>{{ $data->firstItem() + $key }}</td>
+                    <!-- <th scope="row">{{ ++$key }}</th> -->
+                    <td>{{ $items->email }}</td>
+                    <td>{{ $items->empname }}</td>
+                    <td>{{ $items->phone }}</td>
+                    <td>{{ $items->expense }}</td>
+                    <td>{{ $items->amount }}</td>
+                    <td>{{ $items->currency }}</td>
+                    <td>{{ $items->empid }}</td>
+                    <td>{{ $items->date }}</td>
+                  </tr>
+                
+                @endforeach
+            </tbody>
+          </table>
+          {{$data->links()}}
+
                 
         <!-- </div> -->
     </body>
