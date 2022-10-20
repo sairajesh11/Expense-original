@@ -19,7 +19,7 @@ use Laravel\Socialite\Facades\Socialite;
 */
 
 Route::get('/', function () {
-    return redirect('form/new');
+    return redirect('dashboard');
 });
 
 Route::get('form/new', [App\Http\Controllers\FormController::class, 'index'])->name('form/new');
