@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FormController;
+use App\Http\Controllers\DashController;
 use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\socialauthcontroller;
 use Laravel\Socialite\Facades\Socialite;
