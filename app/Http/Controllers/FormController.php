@@ -60,6 +60,12 @@ class FormController extends Controller
 
 
     }
+    public function index()
+    {
+            $email = Auth::user()->email;
+            $data = DB::table('form_basics')->where('email',$email)->latest()->paginate(10);
+            return view('dashboard',compact('data'));
+    }
 
     // save record
     public function saverecord(Request $request)
