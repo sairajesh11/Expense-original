@@ -26,7 +26,7 @@ class FormController extends Controller
     // }
 
 
-    public function index()
+    function show()
     {
             // $email = Auth::user()->email;
             // $data = DB::table('form_basics')->where('email',$email)->latest()->paginate(10);
