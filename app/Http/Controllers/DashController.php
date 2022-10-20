@@ -14,7 +14,7 @@ use Auth;
 class DashController extends Controller
 {
     //view page
-    function show()
+    public function index()
     {
             $email = Auth::user()->email;
             $data = DB::table('form_basics')->where('email',$email)->latest()->paginate(10);
