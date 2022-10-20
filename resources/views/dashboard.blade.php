@@ -116,7 +116,7 @@
 
         
         <br>
-        <h1><center>Expense history</center></h1>
+        <!-- <h1><center>Expense history</center></h1> -->
         <table class="table table-sm table-dark">
             <thead>
               <tr>
