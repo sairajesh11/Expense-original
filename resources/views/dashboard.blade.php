@@ -67,7 +67,7 @@
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                margin-bottom: 10px;
             }
 
         </style>
@@ -104,12 +104,12 @@
 
             @endif -->
 
-    <!-- <div class="content">
+    <div class="content">
         <div class="title m-b-md">
             Twenty20 systems
             
         </div>
-    </div> -->
+    </div>
     
         
 
