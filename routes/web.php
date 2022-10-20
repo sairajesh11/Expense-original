@@ -23,7 +23,7 @@ Route::get('/', function () {
     return redirect('form');
 });
 
-Route::get('form/new', [App\Http\Controllers\FormController::class, 'show']);
+Route::get('form', [App\Http\Controllers\FormController::class, 'show']);
 Route::post('form/save', [App\Http\Controllers\FormController::class, 'saveRecord'])->name('form/save');
 // Route::get('dashboard', [App\Http\Controllers\DashController::class, 'show']);
 Route::get('dashboard', [CustomAuthController::class, 'dashboard']); 
