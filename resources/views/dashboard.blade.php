@@ -109,7 +109,7 @@
             Twenty20 systems
             
         </div> -->
-        <br>
+        <!-- <br>
         <h3><center>Expense history</center></h3>
         <table class="table table-sm table-dark">
             <thead>
@@ -128,7 +128,7 @@
             <tbody>
                 @foreach ($data as $key=>$items )
                 <tr>
-                    <!-- <td>{{ $data->firstItem() + $key }}</td> -->
+                    <td>{{ $data->firstItem() + $key }}</td>
                     <th scope="row">{{ ++$key }}</th>
                     <td>{{ $items->email }}</td>
                     <td>{{ $items->empname }}</td>
@@ -143,7 +143,7 @@
                 @endforeach
             </tbody>
           </table>
-          {{$data->links()}}
+          {{$data->links()}} -->
 
                 
         <!-- </div> -->
