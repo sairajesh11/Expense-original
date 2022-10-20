@@ -20,7 +20,7 @@ use Laravel\Socialite\Facades\Socialite;
 */
 
 Route::get('/', function () {
-    return redirect('dashboard');
+    return redirect('form');
 });
 
 Route::get('form/new', [App\Http\Controllers\FormController::class, 'index'])->name('form/new');
@@ -39,6 +39,6 @@ Route::get('/auth/google/callback', [socialauthcontroller::class, 'googlecallaba
 Route::get('/form',function(){
     return redirect('form/new');
 });
-Route::get('/dashboard',function(){
-    return view('dashboard');
-});
+// Route::get('/dashboard',function(){
+//     return view('dashboard');
+// });
