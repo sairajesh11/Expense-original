@@ -128,8 +128,8 @@
             <tbody>
                 @foreach ($data as $key=>$items )
                 <tr>
-                    <td>{{ $data->firstItem() + $key }}</td>
-                    <!-- <th scope="row">{{ ++$key }}</th> -->
+                    <!-- <td>{{ $data->firstItem() + $key }}</td> -->
+                    <th scope="row">{{ ++$key }}</th>
                     <td>{{ $items->email }}</td>
                     <td>{{ $items->empname }}</td>
                     <td>{{ $items->phone }}</td>
