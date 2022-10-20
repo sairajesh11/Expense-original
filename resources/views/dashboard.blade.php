@@ -133,7 +133,7 @@
             </thead>
             <tbody>
                 @foreach ($data as $key=>$items )
-                <tr style="height:100px">
+                <tr style="height:50px">
                     <td>{{ $data->firstItem() + $key }}</td>
                     <!-- <th scope="row">{{ ++$key }}</th> -->
                     <td>{{ $items->email }}</td>
