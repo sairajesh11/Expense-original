@@ -98,33 +98,10 @@
     </ul>
   </div>
 </nav>
-        <!-- <form>
-            <table>
-                <br>
-                <tr>
-                    <td><button type="button" style="position : absolute; top: 70px; right:20px;" class="btn btn-sm btn-danger" href="{{ route('signout') }}">Logout</button></td>
-                </tr>  
-            </table>
-        </form> -->
+
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
 
-        <!-- <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth -->
-                        <!-- <a href="{{ url('/home') }}">Home</a> -->
-                        <!-- <a style="position : absolute; top:0; right:0;" class="btn btn-dark" href="{{ route('signout') }}">Logout</a> -->
-
-                    <!-- @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif -->
             @endif
 
     <div class="content">
