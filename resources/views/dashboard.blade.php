@@ -143,7 +143,7 @@
                 @endforeach
             </tbody>
           </table>
-          {{$data->links()}}
+          <!-- {{$data->links()}} -->
 
                 
         <!-- </div> -->
