@@ -146,6 +146,6 @@
           {{$data->links()}}
 
                 
-        </div>
+        <!-- </div> -->
     </body>
 </html>
