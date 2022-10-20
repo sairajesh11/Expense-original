@@ -117,7 +117,7 @@
         
         <br>
         <!-- <h1><center>Expense history</center></h1> -->
-        <table class="table table-sm table-dark" style="width: 90px;">
+        <table class="table table-sm table-dark">
             <thead>
               <tr>
                 <th scope="col">No</th>
@@ -133,7 +133,7 @@
             </thead>
             <tbody>
                 @foreach ($data as $key=>$items )
-                <tr style="height: 10px;">
+                <tr>
                     <td>{{ $data->firstItem() + $key }}</td>
                     <!-- <th scope="row">{{ ++$key }}</th> -->
                     <td>{{ $items->email }}</td>
