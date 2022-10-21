@@ -61,7 +61,7 @@
                 color: black;
                 padding: 0 25px;
                 font-size: 13px;
-                top: 18px;
+                top: 100px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -105,7 +105,7 @@
             @if (Route::has('login'))
 
             @endif -->
-    
+    <br>
     <div class="content">
         <div class="title m-b-md">
             Expense history
