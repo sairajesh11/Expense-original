@@ -140,9 +140,9 @@
                 cell = row.insertCell(i);
                 var copycel = document.getElementById('col'+i).innerHTML;
                 cell.innerHTML=copycel;
-                if(i == 5)
+                if(i == 4)
                 { 
-                    var radioinput = document.getElementById('col5').getElementsByTagName('input'); 
+                    var radioinput = document.getElementById('col4').getElementsByTagName('input'); 
                     for(var j = 0; j <= radioinput.length; j++)
                     { 
                         if(radioinput[j].type == 'radio')
