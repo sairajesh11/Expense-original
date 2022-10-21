@@ -118,7 +118,7 @@
         <table class="table table-sm table-dark" border = "10" height = "70%" width = "70%">
             <thead>
               <tr>
-                <th scope="col">No</th>
+                <th scope="col" width : 10px;>No</th>
                 <!-- <th scope="col">Email</th>
                 <th scope="col">Name</th>
                 <th scope="col">Phone</th> -->
