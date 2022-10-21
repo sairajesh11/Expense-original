@@ -53,6 +53,7 @@
 
             .title {
                 font-size: 30px;
+                color: black;
             }
 
             .links > a {
