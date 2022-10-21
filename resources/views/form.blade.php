@@ -181,14 +181,14 @@
     <script>
         $('#validate').validate({
             reles: {
-                'email[]': {
-                    required: true,
-                'empname[]': {
-                    required: true,
-                },
-                'phone[]': {
-                    required:true,
-                },
+                // 'email[]': {
+                //     required: true,
+                // 'empname[]': {
+                //     required: true,
+                // },
+                // 'phone[]': {
+                //     required:true,
+                // },
                 'expense[]': {
                     required:true,
                 'amount[]': {
@@ -204,9 +204,9 @@
                 },
             },
             messages: {
-                'email[]' : "Please input file*",
-                'empname[]' : "Please input file*",
-                'phone[]' : "Please input file*",
+                // 'email[]' : "Please input file*",
+                // 'empname[]' : "Please input file*",
+                // 'phone[]' : "Please input file*",
                 'expense[]' : "Please input file*",
                 'amount[]' : "Please input file*",
                 'currency[]' : "Please input file*",
