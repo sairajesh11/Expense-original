@@ -68,11 +68,13 @@ class FormController extends Controller
     // save record
     public function saverecord(Request $request)
     {
+
+        $email= Auth::user()->email;
             foreach($request->expense as $key=>$insert) {
 
                 $saveRecord = [
 
-                    // 'email'=>$request->email[$key],
+                    'email'=>$request->$email[$key],
                     // 'empname'=>$request->empname[$key],
                     // 'phone'=>$request->phone[$key],
                     'expense'=>$request->expense[$key],
