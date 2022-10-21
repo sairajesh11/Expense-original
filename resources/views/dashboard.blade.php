@@ -105,7 +105,7 @@
             @if (Route::has('login'))
 
             @endif -->
-    <br>
+    
     <div class="content">
         <div class="title m-b-md">
             Expense history
