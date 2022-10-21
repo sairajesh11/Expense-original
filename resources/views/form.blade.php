@@ -82,7 +82,7 @@
                         <!-- <td id="col0"><input type="text" class="form-control" name="email[]" placeholder="Enter your Email" required></td>
                         <td id="col1"><input type="text" class="form-control" name="empname[]" placeholder="Enter your name" required></td> 
                         <td id="col2"><input type="tel" class="form-control" name="phone[]" placeholder="Enter your phone" required></td>  -->
-                        <td id="col3"> 
+                        <td id="col0"> 
                             <select class="form-control" name="expense[]" id="exp" required> 
                                 <option selected disabled>-- Select --</option> 
                                 <option value="Gym">Gym</option>
@@ -92,16 +92,16 @@
                                 <option value="Client expense">Cleint expense</option>
                             </select> 
                         </td>
-                        <td id="col4"><input type="text" class="form-control" name="amount[]" placeholder="Enter your amount" required></td>
-                        <td id="col5"> 
+                        <td id="col1"><input type="text" class="form-control" name="amount[]" placeholder="Enter your amount" required></td>
+                        <td id="col2"> 
                             <select class="form-control" name="currency[]" id="currency" required> 
                                 <option selected disabled>-- Select --</option> 
                                 <option value="INR(₹)">INR(₹)</option>
                                 <option value="USD($)">USD($)</option>
                             </select> 
 
-                        <td id="col6"><input type="text" class="form-control" name="empid[]" placeholder="Enter your employee id" required></td> 
-                        <td id="col7"><input type="date" class="form-control" name="date[]" placeholder="Date of expense" required></td> 
+                        <td id="col3"><input type="text" class="form-control" name="empid[]" placeholder="Enter your employee id" required></td> 
+                        <td id="col4"><input type="date" class="form-control" name="date[]" placeholder="Date of expense" required></td> 
 
 
                     </tr>
@@ -140,9 +140,9 @@
                 cell = row.insertCell(i);
                 var copycel = document.getElementById('col'+i).innerHTML;
                 cell.innerHTML=copycel;
-                if(i == 7)
+                if(i == 5)
                 { 
-                    var radioinput = document.getElementById('col7').getElementsByTagName('input'); 
+                    var radioinput = document.getElementById('col5').getElementsByTagName('input'); 
                     for(var j = 0; j <= radioinput.length; j++)
                     { 
                         if(radioinput[j].type == 'radio')
