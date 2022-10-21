@@ -119,7 +119,7 @@
         
         <br>
         <!-- <h3>Expense history</h3> -->
-        <table class="table table-sm table-dark" border = "5">
+        <table class="table table-sm table-dark" border = "8">
             <thead>
               <tr>
                 <th scope="col">No</th>
