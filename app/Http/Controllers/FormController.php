@@ -72,9 +72,9 @@ class FormController extends Controller
 
                 $saveRecord = [
 
-                    'email'=>$request->email[$key],
-                    'empname'=>$request->empname[$key],
-                    'phone'=>$request->phone[$key],
+                    // 'email'=>$request->email[$key],
+                    // 'empname'=>$request->empname[$key],
+                    // 'phone'=>$request->phone[$key],
                     'expense'=>$request->expense[$key],
                     'amount'=>$request->amount[$key],
                     'currency'=>$request->currency[$key],
