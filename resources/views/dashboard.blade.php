@@ -47,12 +47,12 @@
             }
 
             .content {
-                text-align: center;
+                /* text-align: center; */
                 font-family: Arial;
             }
 
             .title {
-                font-size: 20px;
+                font-size: 30px;
             }
 
             .links > a {
