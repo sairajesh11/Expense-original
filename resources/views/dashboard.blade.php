@@ -52,9 +52,9 @@
             }
 
             .title {
-                font-size: 30px;
+                font-size: 20px;
                 color: black;
-                font-family: Arial;
+                font-family: sans-serif;
             }
 
             .links > a {
