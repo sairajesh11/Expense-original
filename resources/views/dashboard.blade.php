@@ -115,7 +115,7 @@
         
         <br>
         <!-- <h1><center>Expense history</center></h1> -->
-        <table class="table table-sm table-dark" border = "10" height = "70%" width = "70%">
+        <table class="table table-sm table-dark" border = "5" height = "70%" width = "70%">
             <thead>
               <tr>
                 <th scope="col">No</th>
