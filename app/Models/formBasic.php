@@ -9,7 +9,7 @@ class formBasic extends Model
 {
     use HasFactory;
     protected $fillable = [
-        // 'email',
+        'email',
         // 'empname',
         // 'phone',
         'expense',
