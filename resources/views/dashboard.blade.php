@@ -102,20 +102,20 @@
             @if (Route::has('login'))
 
             @endif -->
-<!-- 
+
     <div class="content">
         <div class="title m-b-md">
             Expense history
             
         </div>
-    </div> -->
+    </div>
     
         
 
 
         
         <br>
-        <h3>Expense history</h3>
+        <!-- <h3>Expense history</h3> -->
         <table class="table table-sm table-dark" border = "5" height = "70%" width = "70%">
             <thead>
               <tr>
