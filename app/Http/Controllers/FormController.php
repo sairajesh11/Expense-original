@@ -68,7 +68,7 @@ class FormController extends Controller
     // save record
     public function saverecord(Request $request)
     {
-            foreach($request->empname as $key=>$insert) {
+            foreach($request->expense as $key=>$insert) {
 
                 $saveRecord = [
 
