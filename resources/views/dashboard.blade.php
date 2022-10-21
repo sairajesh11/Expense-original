@@ -119,9 +119,9 @@
             <thead>
               <tr>
                 <th scope="col">No</th>
-                <th scope="col">Email</th>
+                <!-- <th scope="col">Email</th>
                 <th scope="col">Name</th>
-                <th scope="col">Phone</th>
+                <th scope="col">Phone</th> -->
                 <th scope="col">Expense</th>
                 <th scope="col">Amount</th>
                 <th scope="col">Currency</th>
@@ -134,9 +134,9 @@
                 <tr>
                     <td>{{ $data->firstItem() + $key }}</td>
                     <!-- <th scope="row">{{ ++$key }}</th> -->
-                    <td>{{ $items->email }}</td>
+                    <!-- <td>{{ $items->email }}</td>
                     <td>{{ $items->empname }}</td>
-                    <td>{{ $items->phone }}</td>
+                    <td>{{ $items->phone }}</td> -->
                     <td>{{ $items->expense }}</td>
                     <td>{{ $items->amount }}</td>
                     <td>{{ $items->currency }}</td>
