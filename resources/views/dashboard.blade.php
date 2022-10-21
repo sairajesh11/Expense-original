@@ -54,7 +54,7 @@
             .title {
                 font-size: 30px;
                 color: black;
-                font-family: Georgia, serif;
+                font-family: Arial;
             }
 
             .links > a {
