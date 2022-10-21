@@ -66,9 +66,9 @@
             <table id="emptbl" class="table table-bordered border-primar">
                 <thead class="table-dark">
                     <tr>
-                        <th>Email</th>
+                        <!-- <th>Email</th>
                         <th>Name</th>
-                        <th>Phone</th> 
+                        <th>Phone</th>  -->
                         <th>Expense</th>
                         <th>Amount</th>
                         <th>Currency</th>
@@ -79,9 +79,9 @@
                 
                 <tbody>
                     <tr> 
-                        <td id="col0"><input type="text" class="form-control" name="email[]" placeholder="Enter your Email" required></td>
+                        <!-- <td id="col0"><input type="text" class="form-control" name="email[]" placeholder="Enter your Email" required></td>
                         <td id="col1"><input type="text" class="form-control" name="empname[]" placeholder="Enter your name" required></td> 
-                        <td id="col2"><input type="tel" class="form-control" name="phone[]" placeholder="Enter your phone" required></td> 
+                        <td id="col2"><input type="tel" class="form-control" name="phone[]" placeholder="Enter your phone" required></td>  -->
                         <td id="col3"> 
                             <select class="form-control" name="expense[]" id="exp" required> 
                                 <option selected disabled>-- Select --</option> 
