@@ -127,7 +127,7 @@
           <!-- <table class="table" border = "8"> -->
             <thead class="table-dark" font-size ='110%'>
               <tr>
-                <th scope="col">No</th>
+                <th width = "80%" scope="col">No</th>
                 <!-- <th scope="col">Email</th>
                 <th scope="col">Name</th>
                 <th scope="col">Phone</th> -->
