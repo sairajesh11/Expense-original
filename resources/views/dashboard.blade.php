@@ -54,6 +54,7 @@
             .title {
                 font-size: 30px;
                 /* position : absolute;  left: 20px; bottom: auto; */
+                padding: 20px;
                 color: black;
                 font-family: Arial;
             }
