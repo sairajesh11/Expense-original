@@ -138,7 +138,7 @@
                 <th scope="col">Date of expense</th>
               </tr>
             </thead>
-            <tbody  width="80%">
+            <tbody>
                 @foreach ($data as $key=>$items )
                 <tr>
                     <td>{{ $data->firstItem() + $key }}</td>
