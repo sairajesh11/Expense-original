@@ -125,7 +125,7 @@
         <h2  style="font-family: 'POPPINS MEDIUM'; font-size: 25px; ">Expense history</h2>
         <table class="table table-sm" border = "3" style='font-family:"Arial", Courier, monospace; font-size:100%'>
           <!-- <table class="table" border = "8"> -->
-            <thead class="table-dark" font-size ='100%'>
+            <thead class="table-dark" font-size ='110%'>
               <tr>
                 <th scope="col">No</th>
                 <!-- <th scope="col">Email</th>
