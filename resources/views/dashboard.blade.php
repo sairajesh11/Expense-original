@@ -123,8 +123,8 @@
         
         <br>
         <h2  style="font-family: 'Cambria'; font-size: 25px; ">Expense history</h2>
-        <!-- <table class="table table-sm table-dark" border = "8"> -->
-          <table class="table" border = "8">
+        <table class="table table-sm" border = "8">
+          <!-- <table class="table" border = "8"> -->
             <thead class="table-dark">
               <tr>
                 <th scope="col">No</th>
