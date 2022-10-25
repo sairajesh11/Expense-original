@@ -49,6 +49,7 @@
             .content {
                 /* text-align: center; */
                 font-family: Arial;
+                bottom: -50px;
             }
 
             .title {
