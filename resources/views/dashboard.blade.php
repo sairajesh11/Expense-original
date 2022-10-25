@@ -74,7 +74,7 @@
                 margin-bottom: 10px;
             }
 
-            .h3 {
+            h3 {
             border-top: 2px solid #1375b0;
             width: 100%;
             float: none;
