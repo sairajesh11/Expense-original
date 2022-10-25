@@ -53,8 +53,8 @@
 
             .title {
                 font-size: 30px;
-                /* position : absolute;  left: 20px; bottom: auto; */
-                
+                position : absolute;  left: 20px; bottom: auto;
+                padding: 10px;
                 color: black;
                 font-family: Arial;
             }
