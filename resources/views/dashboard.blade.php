@@ -49,12 +49,10 @@
             .content {
                 /* text-align: center; */
                 font-family: Arial;
-                bottom: -50px;
             }
 
             .title {
                 font-size: 30px;
-                bottom: 0px;
                 color: black;
                 font-family: Arial;
             }
