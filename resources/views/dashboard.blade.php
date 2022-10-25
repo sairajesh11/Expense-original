@@ -141,7 +141,7 @@
             <tbody>
                 @foreach ($data as $key=>$items )
                 <tr>
-                    <td width="100%">{{ $data->firstItem() + $key }}</td>
+                    <td width="80%">{{ $data->firstItem() + $key }}</td>
                     <!-- <th scope="row">{{ ++$key }}</th> -->
                     <!-- <td>{{ $items->email }}</td>
                     <td>{{ $items->empname }}</td>
