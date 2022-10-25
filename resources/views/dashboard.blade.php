@@ -53,7 +53,7 @@
 
             .title {
                 font-size: 30px;
-                position : absolute;  left: 20px; bottom: auto;
+                /* position : absolute;  left: 20px; bottom: auto; */
                 color: black;
                 font-family: Arial;
             }
@@ -102,10 +102,10 @@
   </div>
 </nav>
 
-        <div class="flex-center position-ref full-height">
+        <!-- <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
 
-            @endif
+            @endif -->
     <br>
     <div class="content">
         <div class="title m-b-md">
