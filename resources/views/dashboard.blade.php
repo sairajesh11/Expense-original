@@ -74,12 +74,6 @@
                 margin-bottom: 10px;
             }
 
-            h3 {
-            border-top: 2px solid #1375b0;
-            width: 100%;
-            float: none;
-            display: flex;
-            }
 
         </style>
     </head>
@@ -128,7 +122,7 @@
 
         
         <br>
-        <h3>Expense history</h3>
+        <h3  style="font-family: 'Arial'; font-size: 18px;">Expense history</h3>
         <table class="table table-sm table-dark" border = "8">
             <thead>
               <tr>
