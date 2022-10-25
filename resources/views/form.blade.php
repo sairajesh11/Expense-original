@@ -27,8 +27,9 @@
     </style>
 
 <!-- Navigation Bar -->
+
 <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
-  <a style="font-family: 'Arial'; font-size: 20px" class="navbar-brand" href="/">Home</a>
+  <a style="font-family: 'Arial'; font-size: 16px" class="navbar-brand" href="/">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -38,19 +39,20 @@
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li> -->
       <li class="nav-item">
-        <a style="font-family: 'Arial'; font-size: 16px" class="navbar-brand" href="/form">Request form</a>
+        <a style="font-family: 'Arial'; font-size: 16px;" class="navbar-brand" href="/form">Request form</a>
       </li>
       <li class="nav-item">
-        <a style="font-family: 'Arial'; font-size: 16px" class="navbar-brand" href="/contact">Receipt form</a>
+        <a style="font-family: 'Arial'; font-size: 16px;" class="navbar-brand" href="/contact">Receipt form</a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link " href="/expenses" >Expenses</a> -->
-        <a style="font-family: 'Arial'; font-size: 20px; position : absolute;  right:0;" class="navbar-brand" href="{{ route('signout') }}">Logout</a>
+        <a style="font-family: 'Arial'; font-size: 16px; position : absolute;  right: 80px;" class="navbar-brand" href="{{ route('signout') }}">Sign out</a>
 
       </li>
     </ul>
   </div>
 </nav>
+
 
 
     <div class="container">
