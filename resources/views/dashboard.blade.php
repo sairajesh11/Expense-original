@@ -74,6 +74,13 @@
                 margin-bottom: 10px;
             }
 
+            div.dataTables_wrapper {
+              width: 800px;
+              margin: 0 auto;
+
+
+            }
+
 
         </style>
     </head>
