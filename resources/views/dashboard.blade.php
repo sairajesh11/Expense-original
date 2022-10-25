@@ -62,7 +62,7 @@
             .links > a {
                 color: black;
                 padding: 0 25px;
-                font-size: 13px;
+                font-size: 20px;
                 top: 100px;
                 font-weight: 600;
                 letter-spacing: .1rem;
