@@ -130,7 +130,7 @@
         
         <br>
         <h2  style="font-family: 'POPPINS MEDIUM'; font-size: 25px; ">Expense history</h2>
-        <table class="table" border = "3" style='font-family:"Arial", Courier, monospace; font-size:100%'>
+        <table class="table table-md" border = "3" style='font-family:"Arial", Courier, monospace; font-size:100%'>
           <!-- <table class="table" border = "8"> -->
             <thead class="table-dark" font-size ='110%' align = "center" width= "80%">
               <tr>
