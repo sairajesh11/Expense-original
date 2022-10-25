@@ -163,7 +163,7 @@
                 @endforeach
             </tbody>
           </table>
-          {{$data->links()}}
+          <center>{{$data->links()}}<center>
 
                 
         
