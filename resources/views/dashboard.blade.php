@@ -62,7 +62,7 @@
             .links > a {
                 color: black;
                 padding: 0 25px;
-                font-size: 20px;
+                font-size: 13px;
                 top: 100px;
                 font-weight: 600;
                 letter-spacing: .1rem;
@@ -123,7 +123,7 @@
         
         <br>
         <h2  style="font-family: 'Cambria'; font-size: 25px; ">Expense history</h2>
-        <table class="table table-sm" border = "8">
+        <table class="table table-sm" border = "8" style='font-family:"Courier New", Courier, monospace; font-size:80%'>
           <!-- <table class="table" border = "8"> -->
             <thead class="table-dark">
               <tr>
