@@ -123,7 +123,7 @@
         
         <br>
         <h2  style="font-family: 'Cambria'; font-size: 25px; ">Expense history</h2>
-        <table class="table table-sm" border = "8" style='font-family:"Arial", Courier, monospace; font-size:150%'>
+        <table class="table table-sm" border = "8" style='font-family:"Arial", Courier, monospace; font-size:100%'>
           <!-- <table class="table" border = "8"> -->
             <thead class="table-dark">
               <tr>
