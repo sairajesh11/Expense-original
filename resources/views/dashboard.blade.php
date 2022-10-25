@@ -129,7 +129,7 @@
 
         
         <br>
-        <h2  style="font-family: 'POPPINS MEDIUM'; font-size: 25px; "<center>Expense history<center></h2>
+        <h2  style="font-family: 'POPPINS MEDIUM'; font-size: 25px; "><center>Expense history<center></h2>
         <table class="table table-sm" border = "3" align = "center" style='font-family:"Arial", Courier, monospace; width:80%; height: 5px; font-size:100%'>
           <!-- <table class="table" border = "8"> -->
             <thead class="table-dark" font-size ='110%'>
