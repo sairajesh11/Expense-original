@@ -134,15 +134,15 @@
           <!-- <table class="table" border = "8"> -->
             <thead class="table-dark" font-size ='110%'>
               <tr>
-                <th scope="col">No</th>
+                <th width = "5%" scope="col">No</th>
                 <!-- <th scope="col">Email</th>
                 <th scope="col">Name</th>
                 <th scope="col">Phone</th> -->
                 <th scope="col">Expense</th>
                 <th scope="col">Amount</th>
                 <th scope="col">Currency</th>
-                <th scope="col">Employee ID</th>
-                <th scope="col">Date of expense</th>
+                <th width = "10%" scope="col">Employee ID</th>
+                <th width = "10%" scope="col">Date of expense</th>
               </tr>
             </thead>
             <tbody>
