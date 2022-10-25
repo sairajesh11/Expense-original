@@ -122,7 +122,7 @@
 
         
         <br>
-        <h3  style="font-family: 'Arial'; font-size: 25px;">Expense history</h3>
+        <h3  style="font-family: 'Arial'; font-size: 25px; position : absolute;  left: 20px;">Expense history</h3>
         <table class="table table-sm table-dark" border = "8">
             <thead>
               <tr>
