@@ -53,8 +53,8 @@
 
             .title {
                 font-size: 30px;
-                position : absolute;  left: 20px; bottom: auto;
-                padding: 10px;
+                /* position : absolute;  left: 20px; bottom: auto;
+                padding: 10px; */
                 color: black;
                 font-family: Arial;
             }
@@ -108,20 +108,20 @@
             @if (Route::has('login'))
 
             @endif -->
-    <br>
+    <!-- <br>
     <div class="content">
         <div class="title m-b-md">
             Expense history
             
         </div>
-    </div>
+    </div> -->
     
         
 
 
         
         <br>
-        <!-- <h3>Expense history</h3> -->
+        <h3>Expense history</h3>
         <table class="table table-sm table-dark" border = "8">
             <thead>
               <tr>
