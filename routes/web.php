@@ -6,6 +6,8 @@ use App\Http\Controllers\DashController;
 use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\socialauthcontroller;
 use Laravel\Socialite\Facades\Socialite;
+use App\Http\Controllers\Auth\ForgotPasswordController;
+
 
 
 /*
@@ -42,3 +44,8 @@ Route::get('/form',function(){
 // Route::get('/dashboard',function(){
 //     return view('dashboard/new');
 // });
+
+Route::get('forget-password', [ForgotPasswordController::class, 'ForgetPassword'])->name('ForgetPasswordGet');
+Route::post('forget-password', [ForgotPasswordController::class, 'ForgetPasswordStore'])->name('ForgetPasswordPost');
+Route::get('reset-password/{token}', [ForgotPasswordController::class, 'ResetPassword'])->name('ResetPasswordGet');
+Route::post('reset-password', [ForgotPasswordController::class, 'ResetPasswordStore'])->name('ResetPasswordPost');
