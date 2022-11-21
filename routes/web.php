@@ -43,6 +43,10 @@ Route::get('/form',function(){
     return redirect('form/new');
 });
 
+Route::middleware('auth:api')->group(function () {
+    Route::get('/details', 'UserController@details');
+});
+
 
 
 
