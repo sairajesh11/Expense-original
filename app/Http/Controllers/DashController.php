@@ -10,6 +10,8 @@ use App\Models\formBasic;
 use App\Http\Controllers\CustomAuthController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Auth\Middleware\Authenticate as Middleware;
+
 
 class DashController extends Controller
 {
