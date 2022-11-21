@@ -16,7 +16,7 @@ class DashController extends Controller
     //view page
     public function index()
     {
-            $Auth = Auth::user();
+            $Auth = Auth::user()->email;
             print_r($Auth); die();
             // $data = DB::table('form_basics')->where('email',$email)->latest()->paginate(10);
             // // return formBasic::all();
