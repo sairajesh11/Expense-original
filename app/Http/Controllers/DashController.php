@@ -8,8 +8,8 @@ use Illuminate\support\Facades\DB;
 use App\Models\user;
 use App\Models\formBasic;
 use App\Http\Controllers\CustomAuthController;
-use Auth;
-
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Validator;
 
 class DashController extends Controller
 {
