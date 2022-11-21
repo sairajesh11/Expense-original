@@ -35,8 +35,8 @@ Route::get('registration', [CustomAuthController::class, 'registration'])->name(
 Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom'); 
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
 
-Route::get('/auth/google/redirect', [socialauthcontroller::class, 'googleredirect'])->name('googleredirect');
-Route::get('/auth/google/callback', [socialauthcontroller::class, 'googlecallaback'])->name('googlecallaback');
+// Route::get('/auth/google/redirect', [socialauthcontroller::class, 'googleredirect'])->name('googleredirect');
+// Route::get('/auth/google/callback', [socialauthcontroller::class, 'googlecallaback'])->name('googlecallaback');
 
 Route::get('/form',function(){
     return redirect('form/new');
@@ -49,3 +49,6 @@ Route::get('forget-password', [ForgotPasswordController::class, 'ForgetPassword'
 Route::post('forget-password', [ForgotPasswordController::class, 'ForgetPasswordStore'])->name('ForgetPasswordPost');
 Route::get('reset-password/{token}', [ForgotPasswordController::class, 'ResetPassword'])->name('ResetPasswordGet');
 Route::post('reset-password', [ForgotPasswordController::class, 'ResetPasswordStore'])->name('ResetPasswordPost');
+
+Route::get('/auth/google', [GoogleAuthController::class, 'redirect'])->name('google-auth');
+Route::get('/auth/google/call-back', [GoogleAuthController::class, 'callbackGoogle']);
