@@ -128,42 +128,7 @@
 
 
         
-        <br>
-        <h2  style="font-family: 'POPPINS MEDIUM'; font-size: 25px; "><center>Expense history<center></h2>
-        <table class="table table-sm" border = "1" align = "center" style='font-family:"Arial", Courier, monospace; width:99%; height: 5px; font-size:100%'>
-          <!-- <table class="table" border = "8"> -->
-            <thead class="table-dark" font-size ='110%'>
-              <tr>
-                <th width = "5%" scope="col">No</th>
-                <!-- <th scope="col">Email</th>
-                <th scope="col">Name</th>
-                <th scope="col">Phone</th> -->
-                <th scope="col">Expense</th>
-                <th scope="col">Amount</th>
-                <th scope="col">Currency</th>
-                <th scope="col">Employee ID</th>
-                <th scope="col">Date of expense</th>
-              </tr>
-            </thead>
-            <tbody>
-                @foreach ($data as $key=>$items )
-                <tr>
-                    <td>{{ $data->firstItem() + $key }}</td>
-                    <!-- <th scope="row">{{ ++$key }}</th> -->
-                    <!-- <td>{{ $items->email }}</td>
-                    <td>{{ $items->empname }}</td>
-                    <td>{{ $items->phone }}</td> -->
-                    <td>{{ $items->expense }}</td>
-                    <td>{{ $items->amount }}</td>
-                    <td>{{ $items->currency }}</td>
-                    <td>{{ $items->empid }}</td>
-                    <td>{{ $items->date }}</td>
-                  </tr>
-                
-                @endforeach
-            </tbody>
-          </table>
-          {{$data->links()}}
+
 
                 
         
