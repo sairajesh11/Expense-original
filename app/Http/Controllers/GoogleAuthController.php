@@ -6,7 +6,6 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Laravel\Socialite\Facades\Socialite;
-use Illuminate\Auth\Middleware\Authenticate as Middleware;
 
 
 class GoogleAuthController extends Controller
