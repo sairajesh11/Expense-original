@@ -51,16 +51,16 @@
                               </div>
                           </div>
     
-                          <div class="col-md-6 offset-md-4">
-                              <button type="submit" id="submit" class="btn btn-primary">
+                          <!-- <div class="col-md-6 offset-md-4">
+                              <button type="submit" class="btn btn-primary">
                                   Login
                               </button>
-                          </div>
-                          <!-- <div class="flex items-center justify-end mt-4">
+                          </div> -->
+                          <div class="flex items-center justify-end mt-4">
                             <center><a href="{{ route('google-auth') }}"><center>
                                 <img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png" style="margin-left: 3em;">
                             </a>
-                          </div> -->
+                          </div>
 
                           
                       </form>
