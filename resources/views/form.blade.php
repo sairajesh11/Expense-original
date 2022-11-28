@@ -64,7 +64,7 @@
         
         
             
-        <input type="hidden" name="_token" value="{{ csrf_token() }}">   
+            @csrf   
             <table id="emptbl" class="table table-bordered border-primar">
                 <thead class="table-dark">
                     <tr>
