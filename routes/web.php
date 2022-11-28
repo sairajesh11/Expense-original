@@ -34,6 +34,7 @@ Route::post('form/save', [App\Http\Controllers\FormController::class, 'saveRecor
 Route::get('dashboard/new', [App\Http\Controllers\DashController::class, 'index'])->name('dashboard/new');
 Route::get('requesthistory', [App\Http\Controllers\RequestController::class, 'show'])->name('requesthistory');
 Route::get('dashboard', [CustomAuthController::class, 'dashboard']); 
+Route::get('requesthistory', [RequestController::class, 'requesthistory']); 
 Route::get('login', [CustomAuthController::class, 'index'])->name('login');
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom'); 
 Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
