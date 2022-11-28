@@ -28,10 +28,10 @@ class FormController extends Controller
 
     function show()
     {        
-            // $email = Auth::user()->email;
+            $email = Auth::user()->email;
             // $data = DB::table('form_basics')->where('email',$email)->latest()->paginate(10);
             // return view('dashboard',compact('data'));
-            return view('form');
+            // return view('form');
 
 
             
@@ -71,7 +71,7 @@ class FormController extends Controller
            
             $email= Auth::user();
             
-            print_r($email);
+            // print_r($email);
             foreach($request->expense as $key=>$insert) {
 
                 $saveRecord = [
