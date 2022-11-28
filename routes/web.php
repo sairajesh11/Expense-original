@@ -47,6 +47,10 @@ Route::get('/requesthistory',function(){
     return redirect('requesthistory');
 });
 
+Route::get('/receipthistory',function(){
+    return redirect('receipthistory');
+});
+
 // Route::middleware('auth:api')->group(function () {
 //     Route::get('/details', 'UserController@details');
 // });
