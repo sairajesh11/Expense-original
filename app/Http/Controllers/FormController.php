@@ -70,7 +70,7 @@ class FormController extends Controller
     {
             
             $email= Auth::user()->email;
-            print_r($email);
+            // print_r($email);
             foreach($request->expense as $key=>$insert) {
 
                 $saveRecord = [
