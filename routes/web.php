@@ -26,7 +26,7 @@ use App\Http\Controllers\RequestController;
 */
 
 Route::get('/', function () {
-    return redirect('dashboard/new');
+    return redirect('welcome');
 });
 
 Route::get('form/new', [App\Http\Controllers\FormController::class, 'show']);
