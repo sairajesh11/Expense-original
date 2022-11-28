@@ -43,6 +43,10 @@ Route::get('/form',function(){
     return redirect('form/new');
 });
 
+Route::get('/requesthistory',function(){
+    return redirect('requesthistory');
+});
+
 // Route::middleware('auth:api')->group(function () {
 //     Route::get('/details', 'UserController@details');
 // });
