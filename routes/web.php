@@ -9,6 +9,8 @@ use Illuminate\Support\Facades\Auth;
 use Laravel\Socialite\Facades\Socialite;
 use App\Http\Controllers\Auth\ForgotPasswordController;
 use App\Http\Controllers\GoogleAuthController;
+use App\Http\Controllers\RequestController;
+
 
 
 
